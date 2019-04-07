@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const indexRoute = require('./Routes/index')
+const indexRoute = require('./Routes/index');
 
 app.use('/', indexRoute);
 
