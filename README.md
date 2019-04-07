@@ -2,12 +2,15 @@
 
 ## How to use
 
-- clone this repository 
+- Clone this repository 
 ``` 
 git clone https://github.com/prosaka/standard-node-server.git
 ```
 
-- init server
+- Run server
 ``` 
   npm run dev
 ```
+
+
+[MIT](/LICENSE) &copy; Roberto Guerra
