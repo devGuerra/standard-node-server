@@ -1,12 +1,9 @@
 const express = require('express');
 const app = express();
+const indexRoute = require('./Routes/index')
 
-app.get('/', (req, res) => {
-    return res.send({ message: 'Get in root OK!' })
-});
-
-app.post('/', (req, res) => {
-    return res.send({ message: 'Post in root OK!' })
-});
+app.use('/', indexRoute);
 
 app.listen(3000, () => console.log('Server Online'))
+
+module.exports = app
