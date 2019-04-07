@@ -1,0 +1,28 @@
+{
+  "name": "standard-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prosaka/standard-node-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server"
+  ],
+  "author": "Roberto Guerra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prosaka/standard-node-server/issues"
+  },
+  "homepage": "https://github.com/prosaka/standard-node-server#readme"
+}
